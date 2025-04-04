@@ -1,0 +1,165 @@
+body {
+  background-color: rgb(169, 161, 212);
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.hero img {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  border: solid 3px black;
+}
+
+.full-width {
+  width: 100vw; /* Viewport width */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bground img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; /* Ensures the image covers the whole viewport */
+  z-index: -1; /* Sends it behind other content */
+  filter: brightness(90%);
+}
+#hero-section {
+  position: relative;
+  /* background-image: url("hero.jpeg");*/
+  min-height: 95vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 2px 2px rgba(200, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-img {
+}
+.navbar {
+  position: sticky;
+}
+
+.hero-round img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 25px;
+  border: solid 3px black;
+}
+
+.name h1 {
+  color: white;
+  font-size: 50px;
+}
+.name h1::first-letter {
+  font-size: 60px;
+}
+
+.name h1:: {
+  font-size: 60px;
+}
+.quote p {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+}
+
+#mission-section h1::first-letter {
+  color: #da2c4d;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.card {
+  margin-top: 0; /* Remove margin at the top of the card */
+  margin-bottom: 0;
+  border: solid 3px black;
+}
+
+.mission img {
+  background-position: center;
+  background-size: cover;
+  /*height: 600px;*/
+}
+.mission h1 {
+  font-weight: 400;
+}
+.card-text {
+  text-align: left;
+}
+.card-text::first-letter {
+  color: #da2c4d;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.container my-5p::first-letter {
+  font-size: 55px;
+  color: #da2c4d;
+  font-weight: 400;
+}
+
+#skill-header {
+  margin-top: 120px;
+}
+
+.headings {
+}
+.side {
+  display: flex;
+}
+
+#skills p {
+  font-size: 20px;
+  padding-top: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+#skills p:hover {
+  color: #da2c4d;
+}
+#skills h1 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+#skills h1::first-letter {
+  color: #da2c4d;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+#skills svg:hover path {
+  fill: #da2c4d;
+}
+#contact-section {
+  background-color: white;
+}
+#contact-section h1::first-letter {
+  color: #da2c4d;
+  font-size: 55px;
+  font-weight: 400;
+}
+.contact_icons svg:hover path {
+  fill: blue;
+}
